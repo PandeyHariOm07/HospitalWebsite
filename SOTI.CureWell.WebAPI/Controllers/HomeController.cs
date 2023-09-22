@@ -64,11 +64,11 @@ namespace SOTI.CureWell.WebAPI.Controllers
 
         [HttpPost]
         [Route("AddDoctor")]
-        public IHttpActionResult AddDoctor([FromBody] Doctor doctor)
+        public bool AddDoctor([FromBody] Doctor doctor)
         {
             var res = _cureWell.AddDoctor(doctor);
-            if (res) return Ok();
-            return BadRequest();
+            if (res) return true;
+            return false;
         }
 
 
