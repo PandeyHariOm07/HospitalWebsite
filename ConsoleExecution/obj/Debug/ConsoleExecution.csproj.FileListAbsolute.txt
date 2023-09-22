@@ -1,0 +1,12 @@
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\ConsoleExecution.exe.config
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\ConsoleExecution.exe
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\ConsoleExecution.pdb
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.csproj.AssemblyReference.cache
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.csproj.SuggestedBindingRedirects.cache
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.csproj.CoreCompileInputs.cache
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.exe
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.pdb
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\SOTI.Curewell.DAL.dll
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\SOTI.Curewell.DAL.pdb
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\bin\Debug\SOTI.Curewell.DAL.dll.config
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\ConsoleExecution\obj\Debug\ConsoleExecution.csproj.CopyComplete

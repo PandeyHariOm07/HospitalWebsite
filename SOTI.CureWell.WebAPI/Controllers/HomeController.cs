@@ -6,10 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SOTI.CureWell.WebAPI.Controllers
 {
-    [RoutePrefix("api/Home")]
+    [EnableCors("*", "*", "*")]
+    [RoutePrefix("api/CureWell")]
     public class HomeController : ApiController
     {
         private readonly ICureWell _cureWell = null;
@@ -81,23 +83,23 @@ namespace SOTI.CureWell.WebAPI.Controllers
 
 
         [HttpPut]
-        [Route("UpdateDoctorDetails/{id}")]
-        public IHttpActionResult UpdateDoctorDetails([FromUri] int id, [FromBody] Doctor doctor)
+        [Route("UpdateDoctorDetails")]
+        public bool UpdateDoctorDetails([FromBody] Doctor doctor)
         {
-            if (id != doctor.DoctorId) return BadRequest();
+            //if (id != doctor.DoctorId) return BadRequest();
             var res = _cureWell.UpdateDoctorDetails(doctor);
-            if (res) return Ok();
-            return BadRequest();
+            if (res) return true;
+            return false;
         }
 
         [HttpPut]
-        [Route("UpdateSurgery/{id}")]
-        public IHttpActionResult UpdateSurgery([FromUri] int id,[FromBody] Surgery surgery)
+        [Route("UpdateSurgery")]
+        public bool UpdateSurgery([FromBody] Surgery surgery)
         {
-            if (id != surgery.SurgeryId) return BadRequest();
+            //if (id != surgery.SurgeryId) return BadRequest();
             var res = _cureWell.UpdateSurgery(surgery);
-            if (res) return Ok();
-            return BadRequest();
+            if (res) return true;
+            return false;
         }
 
     }

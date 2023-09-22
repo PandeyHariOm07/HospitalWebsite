@@ -227,11 +227,11 @@ namespace SOTI.Curewell.DAL
                             if (dr != null)
                             {
                                 dr.BeginEdit();
-                                dr["DoctorId"] = SObj.DoctorId;
-                                dr["SurgeryDate"] = SObj.SurgeryDate;
+                                //dr["DoctorId"] = SObj.DoctorId;
+                                //dr["SurgeryDate"] = SObj.SurgeryDate;
                                 dr["StartTime"] = SObj.StartTime;
                                 dr["EndTime"] = SObj.EndTime;
-                                dr["SurgeryCategory"] = SObj.SurgeryCategory;
+                                //dr["SurgeryCategory"] = SObj.SurgeryCategory;
                                 dr.EndEdit();
                                 SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
                                 adapter.UpdateCommand = builder.GetUpdateCommand();

@@ -1,0 +1,7 @@
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\obj\Debug\SOTI.Curewell.DAL.csproj.AssemblyReference.cache
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\obj\Debug\SOTI.Curewell.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\bin\Debug\SOTI.Curewell.DAL.dll.config
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\bin\Debug\SOTI.Curewell.DAL.dll
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\bin\Debug\SOTI.Curewell.DAL.pdb
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\obj\Debug\SOTI.Curewell.DAL.dll
+C:\Users\hpandey\source\repos\SOTI.Curewell.Project\SOTI.Curewell.DAL\obj\Debug\SOTI.Curewell.DAL.pdb
